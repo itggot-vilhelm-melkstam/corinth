@@ -1,0 +1,51 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:25
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-clicker:before { content: "\f100"; }
+.flaticon-cursor:before { content: "\f101"; }
+.flaticon-cursor-1:before { content: "\f102"; }
+.flaticon-cursor-2:before { content: "\f103"; }
+.flaticon-cursor-3:before { content: "\f104"; }
+.flaticon-drag:before { content: "\f105"; }
+.flaticon-drag-1:before { content: "\f106"; }
+.flaticon-forbidden-cursor:before { content: "\f107"; }
+.flaticon-hand-move:before { content: "\f108"; }
+.flaticon-move-arrows:before { content: "\f109"; }
+.flaticon-navigation-arrows:before { content: "\f10a"; }
+.flaticon-pointer:before { content: "\f10b"; }
+.flaticon-question-mark-cursor:before { content: "\f10c"; }
+.flaticon-scroll:before { content: "\f10d"; }
+.flaticon-type:before { content: "\f10e"; }
+.flaticon-wait:before { content: "\f10f"; }
+.flaticon-wait-cursor:before { content: "\f110"; }
+.flaticon-waiting:before { content: "\f111"; }
+.flaticon-zoom-in:before { content: "\f112"; }
+.flaticon-zoom-out:before { content: "\f113"; }
