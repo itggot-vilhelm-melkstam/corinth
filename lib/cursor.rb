@@ -26,7 +26,7 @@ class Cursor
 	end
 
 	def draw
-		@styles[@style].draw(@x, @y, 0, (@size/512.0), (@size/512.0))
+		@styles[@style].draw(@x, @y, ZOrder::Cursor, (@size/512.0), (@size/512.0))
 	end
 
 end
